@@ -11,27 +11,6 @@ scalaVersion := "2.11.8"
 
 crossScalaVersions := Seq(scalaVersion.value, "2.12.1")
 
-scmInfo := Some(
-  ScmInfo(
-    url("https://chiron.idorsia.com/stash/projects/ARC/repos/arcite-bcl2fastq/browse"),
-    "scm:ssh://git@chiron.idorsia.com:7999/arc/arcite-bcl2fastq.git",
-    Some("scm:git:git@chiron.idorsia.com:7999/arc/arcite-bcl2fastq.git")
-  )
-)
-
-credentials += Credentials("Sonatype Nexus Repository Manager", "nexus.idorsia.com", "deployment", "biodeploy")
-
-publishMavenStyle := true
-
-publishTo := {
-  val nexus = "http://nexus.idorsia.com/repository/"
-  if (version.value.toString.trim.endsWith("SNAPSHOT"))
-    Some("snapshots" at nexus + "idorsia-snapshots")
-  else
-    Some("releases" at nexus + "idorsia-releases")
-}
-
-
 resolvers ++= Seq(
   Resolver.mavenLocal,
   Resolver.file("ivy local", file(Path.userHome.absolutePath + "/.ivy2/local"))(Resolver.ivyStylePatterns),
@@ -41,8 +20,6 @@ resolvers ++= Seq(
   Resolver.sonatypeRepo("releases"),
   Resolver.sonatypeRepo("snapshots"),
   MavenRepository("mvn-repository", "https://mvnrepository.com/artifact/"),
-  MavenRepository("nexus-idorsia", "http://nexus.idorsia.com/repository/idorsia-releases/"),
-  MavenRepository("nexus-snapshots-idorsia", "http://nexus.idorsia.com/repository/idorsia-snapshots/"),
   MavenRepository("Artima Maven Repository", "http://repo.artima.com/releases/"))
 
 // These options will be used for *all* versions.
