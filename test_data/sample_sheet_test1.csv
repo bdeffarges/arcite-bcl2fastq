@@ -1,0 +1,23 @@
+[Header]
+IEMFileVersion,5
+Date,04.10.2018
+Workflow,GenerateFASTQ
+Application,NextSeq FASTQ Only
+Instrument Type,NextSeq/NextSeq
+Assay,NuGEN mRNA RNA-Seq System
+Index Adapters,NuGEN  mRNA DR adapters
+Description,NuGEN  mRNA RodentGlobinDepletion
+Chemistry,Default
+
+[Reads]
+76
+76
+
+[Settings]
+
+[Data],
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,Sample_Project,Description
+MiceGC,MiceWBGC,,G12,3095,GCTCAGTT,Test2GlobinDepletionP1,
+RatGC,RatWBGC,,H12,3096,ATCTGACC,Test2GlobinDepletionP1,
+MiceNoGC,MiceWBNoGC,,G11,3087,CTAGCTCA,Test2GlobinDepletionP1,
+RatNoGC,RatWBNoGC,,H11,3088,TCCAACTG,Test2GlobinDepletionP1,

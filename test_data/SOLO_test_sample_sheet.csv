@@ -1,0 +1,27 @@
+[Header]
+IEMFileVersion,5,,,,,,
+Date,14.02.2018,,,,,,
+Workflow,GenerateFASTQ,,,,,,
+Application,NextSeq FASTQ Only,,,,,,
+Instrument Type,NextSeq/MiniSeq,,,,,,
+Assay,Nextera XT,,,,,,
+Index Adapters,Nextera XT Index Kit (96 Indexes, 384 Samples),,,,,
+Description,SOLO test,,,,,,
+Chemistry,Default,,,,,,
+,,,,,,,
+[Reads]
+76,,,,,,,
+,,,,,,,
+[Settings]
+,,,,,,,
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7-Index-ID,index,Sample_Project,Description
+1,250-cells,,A01,2001,CGCTACAT,Solo-test-project,
+2,500-cells,,B01,2002,AATCCAGC,Solo-test-project,
+3,10-ng,,C01,2003,CGTCTAAC,Solo-test-project,
+4,5-ng,,D01,2004,AACTCGGA,Solo-test-project,
+5,1-ng,,E01,2005,GTCGAGAA,Solo-test-project,
+6,50-pg,,F01,2006,ACAACAGC,Solo-test-project,
+7,10-pg,,G01,2007,ATGACAGG,Solo-test-project,
+8,water,,H01,2008,GCACACAA,Solo-test-project,
+

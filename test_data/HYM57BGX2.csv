@@ -1,0 +1,20 @@
+[Header]
+IEMFileVersion,4
+Investigator Name,Tim Roloff
+Experiment Name,SOD1
+Date,8/18/2017
+Workflow,GenerateFASTQ
+Application,NextSeq FASTQ Only
+Assay,TruSeq LT
+Description,SOD1 model genomic DNA sequencing
+Chemistry,Default
+
+[Reads]
+154
+154
+
+[Settings]
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,Sample_Project,Description
+1234,TG_SOD1,,,A002,CGATGT,SOD1,SOD1genomicSequencing

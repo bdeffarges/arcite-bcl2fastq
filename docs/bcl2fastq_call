@@ -1,0 +1,6 @@
+
+
+/usr/local/bin/bcl2fastq --runfolder-dir /arcite/home/experiments/com/idorsia/research/mps/nextseq/adf44878-38e5-4df4-ac0d-a263e7afa661/raw/180605_NB502046_0012_AHMTJLBGX5 \
+--output-dir /arcite/home/experiments/com/idorsia/research/mps/nextseq/adf44878-38e5-4df4-ac0d-a263e7afa661/transforms/7a727a9d-cde0-4c9c-a8bd-5bba70ff1223/fastqFiles/180605_NB502046_0012_AHMTJLBGX5 \
+--barcode-mismatches 1 --no-lane-splitting --create-fastq-for-index-reads --use-bases-mask Y*,I8Y* \
+--sample-sheet /arcite/home/experiments/com/idoria/research/mps/nextseq/adf44878-38e5-4df4-ac0d-a263e7afa661/user_meta/IRS006_ILC2__SOLO_180605_MERLIN_Lib1_SampleSheet.csv

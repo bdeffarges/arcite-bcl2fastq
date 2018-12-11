@@ -1,0 +1,24 @@
+[Header]
+IEMFileVersion,4
+Investigator Name,renaulb
+Experiment Name,ARSeq_170925
+Date,9/25/2017
+Workflow,GenerateFASTQ
+Application,NextSeq FASTQ Only
+Assay,TruSeq LT
+Description,mRNA seq test
+Chemistry,Default
+
+[Reads]
+76
+
+[Settings]
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,Sample_Project,Description
+1,10ng_Spk1,,,A04,ACGGACTT,ARS_25092017,
+2,50ng_Spk1,,,B04,CTAAGACC,ARS_25092017,
+3,100ng_Spk1,,,C04,AACCGAAC,ARS_25092017,
+4,10ng_Spk2,,,D04,CCTTAGGT,ARS_25092017,
+5,50ng_Spk2,,,E04,CCTATACC,ARS_25092017,
+6,100ng_Spk2,,,F04,AACGCCTT,ARS_25092017,
